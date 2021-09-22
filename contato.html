@@ -1,0 +1,80 @@
+<!DOCTYPE htm>
+
+<html lang= "pt-br">
+
+   <head>
+
+      <meta charset="UTF-8">
+      <title>Fale comigo</title>
+
+      <link rel="stylesheet" href="reset1.css">
+      <link rel="stylesheet" href="style.css">
+
+   </head>
+   <body>
+      <header>
+
+          <div class="caixa">
+
+               <h1><img class="logo" src="logocerto.jpg" alt="Logo do site addnome"></h1>
+
+                   <nav>
+                      <ul>
+
+                          <li><a href="meuSite.html">Voltar ao inicio</a></li>
+                          <li><a href="compra.html">Comprar</a></li>
+                      </ul>
+
+                   </nav>
+
+            </div>
+
+      </header>
+
+       <main>
+           <form>
+
+            <fieldset>
+              <label for="nomeounick">Nome ou nick de usuário:</label>
+              <input type="text" id="nomeounick" class="input-padrao" required placeholder="AnyTha12">
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" class="input-padrao" required placeholder="any.thalassa@gmail.com">
+
+              <label for="mensagem">Deixe seu recado</label>
+              <textarea cols="65" rows="10" id="mensagem" class="input-padrao"required></textarea>
+            </fieldset>
+              
+             <fieldset>
+                 <legend>Conteúdo do recado:</legend>
+
+                <label for="radio-duvidasobre"><input type="radio" name="contato" value="duvidasobre" id="radio-duvidasobre">Duvidas sobre o livro</label>
+               
+
+              
+                <label for="radio-palavraautora"><input type="radio" name="contato" value="duvidasobre" id="radio-palavraautora">Palvra com a autora</label>
+                <input type="radio" name="contato" value="duvidasobre" id="radio-palavraautora">
+
+                <label for="radio-todas"><input type="radio" name="contato" value="duvidasobre" id="radio-todas">Todas as opçoes</label>
+                
+              
+                <label for="radio-outro"><input type="radio" name="contato" value="duvidasobre" id="radio-outro">Outro</label>
+               
+             </fieldset>
+
+
+            <label><input type="checkbox" class="checkbox" checked>Gostaria de receber novidades e conteúdo exclusivo pelo email?</label>
+ 
+            <input type="submit" value="Enviar para Ana" class="enviar"> 
+         
+          </form>
+       </main>
+
+      <footer>
+        <img class="rodape" src="logocerto.jpg" alt="Logo do site addnome">
+        <p class="copyright">&copy; Copyright MEU SITE-2021
+
+     </footer>
+
+    </body>
+</html>

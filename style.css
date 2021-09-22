@@ -1,0 +1,169 @@
+.logo{
+
+	width: 16%;
+}
+
+header{
+
+	background: #FFFACD;
+	padding: 10px 0;
+}
+
+.caixa{
+
+	position: relative;
+	width: 1050px;
+	margin: 0 auto;
+}
+
+nav{
+
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li{
+
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+
+	text-transform: uppercase;
+	color: #800000;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover{
+      color: #4169E1 ;
+	  text-decoration: underline;
+
+}
+
+.produtos{
+
+	width: 940px;
+	margin: 0 auto;
+	padding: 55px 0;
+}
+
+.produtos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	border-color: #000000;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.produtos li:hover{
+	border-color:  #4169E1 ;
+	  
+}
+
+.produtos li:active{
+       border-color:#20B2AA ;  
+
+}
+
+.produtos li:hover h2{
+        font-size: 34px;
+
+}
+
+.produtos h2{
+
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.descricao{
+
+	font-size: 18px;
+	padding: 5px;
+}
+
+.valor{
+
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+footer  {
+
+	text-align: center;
+	background: #FFFACD;
+	padding: 30px 0;
+}
+
+.rodape {
+	width: 12%;
+
+}
+
+.copyright {
+     color: #800000;
+     font-size: 13px;
+	 margin: 20px 0 0;
+}
+
+main {
+
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+
+	margin: 40px 0;
+}
+
+form label, form legend {
+
+	display: block;
+	font-size: 22px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 50%;
+}
+
+.checkbox {
+
+	margin: 20px 0;
+}
+
+.enviar {
+
+	width: 30%;
+	padding: 10px 0;
+	background:#800000 ;
+	color: #FFFACD;
+	font-weight: bold;
+	font-size: 17px;
+	border: none;
+	border-radius: 50px;
+	transition: 1s all;
+}
+
+.enviar:hover {
+
+	background: #DC143C;
+	transform: scale(1.2);
+}
